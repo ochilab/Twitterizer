@@ -68,39 +68,39 @@ namespace Twitterizer2.TestCases
             PerformCommonTimelineTests(timelineResponse);
         }
 
-        [Category("ReadOnly")]
-        [Category("REST")]
-        [Test]
-        public static void RetweetsOfMe()
-        {
-            OAuthTokens tokens = Configuration.GetTokens();
+        //[Category("ReadOnly")]
+        //[Category("REST")]
+        //[Test]
+        //public static void RetweetsOfMe()
+        //{
+        //    OAuthTokens tokens = Configuration.GetTokens();
 
-            TwitterResponse<TwitterStatusCollection> timelineResponse = TwitterTimeline.RetweetsOfMe(tokens);
-            PerformCommonTimelineTests(timelineResponse);
-        }
+        //    TwitterResponse<TwitterStatusCollection> timelineResponse = TwitterTimeline.RetweetsOfMe(tokens);
+        //    PerformCommonTimelineTests(timelineResponse);
+        //}
 
-        [Category("ReadOnly")]
-        [Category("REST")]
-        [Test]
-        public static void RetweetedByMe()
-        {
-            OAuthTokens tokens = Configuration.GetTokens();
+        //[Category("ReadOnly")]
+        //[Category("REST")]
+        //[Test]
+        //public static void RetweetedByMe()
+        //{
+        //    OAuthTokens tokens = Configuration.GetTokens();
 
-            TwitterResponse<TwitterStatusCollection> timelineResponse = TwitterTimeline.RetweetedByMe(tokens);
-            PerformCommonTimelineTests(timelineResponse);
-        }
+        //    TwitterResponse<TwitterStatusCollection> timelineResponse = TwitterTimeline.RetweetedByMe(tokens);
+        //    PerformCommonTimelineTests(timelineResponse);
+        //}
 
-        [Category("ReadOnly")]
-        [Category("REST")]
-        [Test]
-        public static void RetweetedToMe()
-        {
-            OAuthTokens tokens = Configuration.GetTokens();
+        //[Category("ReadOnly")]
+        //[Category("REST")]
+        //[Test]
+        //public static void RetweetedToMe()
+        //{
+        //    OAuthTokens tokens = Configuration.GetTokens();
 
-            TwitterResponse<TwitterStatusCollection> timelineResponse = TwitterTimeline.RetweetedToMe(tokens);
+        //    TwitterResponse<TwitterStatusCollection> timelineResponse = TwitterTimeline.RetweetedToMe(tokens);
 
-            PerformCommonTimelineTests(timelineResponse);
-        }
+        //    PerformCommonTimelineTests(timelineResponse);
+        //}
 
         [Category("ReadOnly")]
         [Category("REST")]

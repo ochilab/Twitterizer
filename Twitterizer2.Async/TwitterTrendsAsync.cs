@@ -141,10 +141,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult Daily(OAuthTokens tokens, TrendsOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTrend.Daily, function);
-        }
+        //public static IAsyncResult Daily(OAuthTokens tokens, TrendsOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTrend.Daily, function);
+        //}
 
         /// <summary>
         /// Gets the daily global trends
@@ -153,10 +153,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult Daily(TrendsOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(null, options, timeout, TwitterTrend.Daily, function);
-        }
+        //public static IAsyncResult Daily(TrendsOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(null, options, timeout, TwitterTrend.Daily, function);
+        //}
 
         /// <summary>
         /// Gets the daily global trends
@@ -164,10 +164,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult Daily(TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(null, (TrendsOptions)null, timeout, TwitterTrend.Daily, function);
-        }
+        //public static IAsyncResult Daily(TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(null, (TrendsOptions)null, timeout, TwitterTrend.Daily, function);
+        //}
 
 
         /// <summary>
@@ -178,10 +178,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult Weekly(OAuthTokens tokens, TrendsOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTrend.Weekly, function);
-        }
+        //public static IAsyncResult Weekly(OAuthTokens tokens, TrendsOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTrend.Weekly, function);
+        //}
 
         /// <summary>
         /// Gets the weekly global trends
@@ -190,10 +190,9 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult Weekly(TrendsOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(null, options, timeout, TwitterTrend.Weekly, function);
-        }
+        //public static IAsyncResult Weekly(TrendsOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function) {
+        //    return AsyncUtility.ExecuteAsyncMethod(null, options, timeout, TwitterTrend.Weekly, function);
+        //}
 
         /// <summary>
         /// Gets the weekly global trends
@@ -201,9 +200,9 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult Weekly(TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(null, (TrendsOptions)null, timeout, TwitterTrend.Weekly, function);
-        }
+        //public static IAsyncResult Weekly(TimeSpan timeout, Action<TwitterAsyncResponse<TwitterTrendDictionary>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(null, (TrendsOptions)null, timeout, TwitterTrend.Weekly, function);
+        //}
     }
 }

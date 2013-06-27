@@ -100,10 +100,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult RetweetedByMe(OAuthTokens tokens, TimelineOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterStatusCollection>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTimeline.RetweetedByMe, function);
-        }
+        //public static IAsyncResult RetweetedByMe(OAuthTokens tokens, TimelineOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterStatusCollection>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTimeline.RetweetedByMe, function);
+        //}
 
         /// <summary>
         /// Returns the 20 most recent retweets posted by the authenticating user's friends.
@@ -113,10 +113,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult RetweetedToMe(OAuthTokens tokens, TimelineOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterStatusCollection>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTimeline.RetweetedToMe, function);
-        }
+        //public static IAsyncResult RetweetedToMe(OAuthTokens tokens, TimelineOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterStatusCollection>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTimeline.RetweetedToMe, function);
+        //}
 
         /// <summary>
         /// Returns the 20 most recent tweets of the authenticated user that have been retweeted by others.
@@ -126,10 +126,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult RetweetsOfMe(OAuthTokens tokens, RetweetsOfMeOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterStatusCollection>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTimeline.RetweetsOfMe, function);
-        }
+        //public static IAsyncResult RetweetsOfMe(OAuthTokens tokens, RetweetsOfMeOptions options, TimeSpan timeout, Action<TwitterAsyncResponse<TwitterStatusCollection>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterTimeline.RetweetsOfMe, function);
+        //}
 
         /// <summary>
         /// Returns the 20 most recent statuses posted by the authenticating user. It is also possible to request another user's timeline by using the screen_name or user_id parameter.

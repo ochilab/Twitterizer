@@ -164,10 +164,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult NoRetweetIDs(OAuthTokens tokens, OptionalProperties options, TimeSpan timeout, Action<TwitterAsyncResponse<UserIdCollection>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterFriendship.NoRetweetIDs, function);
-        }
+        //public static IAsyncResult NoRetweetIDs(OAuthTokens tokens, OptionalProperties options, TimeSpan timeout, Action<TwitterAsyncResponse<UserIdCollection>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(tokens, options, timeout, TwitterFriendship.NoRetweetIDs, function);
+        //}
 
         /// <summary>
         /// Returns the numeric IDs for every user the specified user is does not want to see retweets from.
@@ -176,10 +176,10 @@ namespace Twitterizer
         /// <param name="timeout">The timeout.</param>
         /// <param name="function">The function.</param>
         /// <returns></returns>
-        public static IAsyncResult NoRetweetIDs(OAuthTokens tokens, TimeSpan timeout, Action<TwitterAsyncResponse<UserIdCollection>> function)
-        {
-            return AsyncUtility.ExecuteAsyncMethod(tokens, timeout, TwitterFriendship.NoRetweetIDs, function);
-        }
+        //public static IAsyncResult NoRetweetIDs(OAuthTokens tokens, TimeSpan timeout, Action<TwitterAsyncResponse<UserIdCollection>> function)
+        //{
+        //    return AsyncUtility.ExecuteAsyncMethod(tokens, timeout, TwitterFriendship.NoRetweetIDs, function);
+        //}
 
         /// <summary>
         /// Updates the friendship.

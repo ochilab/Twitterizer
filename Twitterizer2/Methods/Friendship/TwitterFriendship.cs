@@ -491,21 +491,21 @@ namespace Twitterizer
         /// <param name="tokens">The tokens.</param>
         /// <param name="options">The options.</param>
         /// <returns></returns>
-        public static TwitterResponse<UserIdCollection> NoRetweetIDs(OAuthTokens tokens, OptionalProperties options)
-        {
-            Commands.NoRetweetIDsCommand command = new Commands.NoRetweetIDsCommand(tokens, options);
-            return Core.CommandPerformer.PerformAction(command);
-        }
+        //public static TwitterResponse<UserIdCollection> NoRetweetIDs(OAuthTokens tokens, OptionalProperties options)
+        //{
+        //    Commands.NoRetweetIDsCommand command = new Commands.NoRetweetIDsCommand(tokens, options);
+        //    return Core.CommandPerformer.PerformAction(command);
+        //}
 
         /// <summary>
         /// Returns a collection of IDs that the user does not want to see retweets from.
         /// </summary>
         /// <param name="tokens">The tokens.</param>        
         /// <returns></returns>
-        public static TwitterResponse<UserIdCollection> NoRetweetIDs(OAuthTokens tokens)
-        {
-            return NoRetweetIDs(tokens, null);
-        }
+        //public static TwitterResponse<UserIdCollection> NoRetweetIDs(OAuthTokens tokens)
+        //{
+        //    return NoRetweetIDs(tokens, null);
+        //}
 
         /// <summary>
         /// Updates a friendship for a user.

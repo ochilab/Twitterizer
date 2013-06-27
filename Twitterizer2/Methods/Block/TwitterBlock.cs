@@ -218,11 +218,11 @@ namespace Twitterizer
         /// <param name="tokens">The tokens.</param>
         /// <param name="options">The options.</param>
         /// <returns></returns>
-        public static TwitterResponse<TwitterUserCollection> Blocking(OAuthTokens tokens, BlockingOptions options)
-        {
-            Commands.BlockingCommand command = new Commands.BlockingCommand(tokens, options);
-            return Core.CommandPerformer.PerformAction(command);
-        }
+        //public static TwitterResponse<TwitterUserCollection> Blocking(OAuthTokens tokens, BlockingOptions options)
+        //{
+        //    Commands.BlockingCommand command = new Commands.BlockingCommand(tokens, options);
+        //    return Core.CommandPerformer.PerformAction(command);
+        //}
 
         /// <summary>
         /// Returns a collection of user objects that the authenticating user is blocking.
@@ -230,10 +230,10 @@ namespace Twitterizer
         /// <param name="tokens">The tokens.</param>
         /// <returns></returns>
         /// <remarks></remarks>
-        public static TwitterResponse<TwitterUserCollection> Blocking(OAuthTokens tokens)
-        {
-            return Blocking(tokens, null);
-        }
+        //public static TwitterResponse<TwitterUserCollection> Blocking(OAuthTokens tokens)
+        //{
+        //    return Blocking(tokens, null);
+        //}
 
         /// <summary>
         /// Returns an collection of user ids the authenticating user is blocking.
